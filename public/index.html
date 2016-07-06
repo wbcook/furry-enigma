@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <title>Furry Enigma</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/base.css">
+</head>
+<body>
+  <div id="events-container">
+    <div id="events-queue">Queue</div>
+    <div id="events-interface">Interface</div>
+  </div>
+  <div id="chat-container">
+    <div id="chat-room">
+      <div class="chat-message">Welcome to the chat room.</div>
+    </div>
+    <div id="chat-interface" action="">
+      <textarea id="chat-input-field" autocomplete="off"></textarea>
+      <button id="chat-button">Chat</button>
+    </div>
+  </div>
+  <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

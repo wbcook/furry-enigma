@@ -1,0 +1,25 @@
+{
+  "name": "furry-enigma",
+  "version": "1.0.0",
+  "description": "another socket.io experiment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbcook/furry-enigma.git"
+  },
+  "author": "wbcook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wbcook/furry-enigma/issues"
+  },
+  "homepage": "https://github.com/wbcook/furry-enigma#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "normalize.css": "^4.2.0",
+    "socket.io": "^1.4.8"
+  }
+}
